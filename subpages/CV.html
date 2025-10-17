@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/resume.css">
+    
+    <link rel="stylesheet" href="../css/footer.css" />
+    
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <title>Document</title>
 </head>
 <body>
@@ -41,6 +45,130 @@
         </a>
     </div>
 </header>
+<div class="flex-display">
+    <aside class="left-box">
+        <div class="contact-info-aside">
+            <p><i></i>+32 470 42 39 69</p>
+            <p><i></i>r1100223@student.thomasmore.be</p>
+        </div>
+        <div class="edcuation-info-aside">
+            <h2>EDUCATION</h2>
+            <div class="line"></div>
+            <h3>Graduate Programming</h3>
+            <p>Thomas more turnhout<br><span>2025 - 2027</span></p>
+            <div class="spacer"></div>
+            <h3>Website Designer</h3>
+            <p>CVO Turnhout <br><span>2025</span></p>
+        </div>
+        <div class="skills-info-aside">
+            <h2>SKILLS</h2>
+            <div class="line"></div>
+            <ul>
+                <li>Bootstrap</li>
+                <li>C#</li>
+                <li>CSS</li>
+                <li>Git & GitHub</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>MongoDB</li>
+                <li>MSSQL</li>
+                <li>Node.js</li>
+                <li>Team Collaboration</li>
+                <li>Technical Documentation</li>
+                <li>Typescript</li>
+        </div>
+        <div class="language-info-aside">
+            <h2>LANGUAGES</h2>
+            <div class="line"></div>
+            <ul>
+                <li>Dutch - Native</li>
+                <li>English - Professional Proficiency</li>
+            </ul>
+        </div>
+    </aside>
+    <main class="main-box">
+        <div class="about-me-container">
+            <h1>ABOUT ME</h1>
+            <div class="line"></div>
+            <p>
+                I am a passionate and detail-oriented coder who loves creating clean, readable, and visually appealing code. I am a quick learner, having picked up new programming languages and frameworks in a matter of weeks, and I take pride in translating ideas into functional, real-world projects.
+                <br><br>
+                I thrive in focused, quiet environments, but I value positive and respectful interactions with colleagues. I approach challenges methodically, tracing problems carefully and iteratively testing solutions until the issue is resolved.
+                <br><br>
+                My goal is to grow as a backend developer with a focus on data, combining my love for coding with the excitement of analyzing and working with complex datasets. I am always eager to learn, particularly in low-level programming languages such as C, C++, or Rust, and I enjoy problem-solving with persistence and a positive attitude.
+                <br><br>
+                I value kindness, respect, and open communication in a team, and I believe that a positive outlook and collaborative mindset contribute to both personal and organizational success.</p>
+        </div>
+        <div class="work-experience-container">
+            <h1>WORK EXPERIENCE</h1>
+            <div class="line"></div>
+            <div class="work-experience-box">
+                <h2>Factory Operator</h2>
+                <h3>Versatelier - 2025</h3>
+                <ul>
+                    <li>Assisted in cooking food for hunderds of people.</li>
+                    <li>Operated kitchen equipment safely and efficiently to prepare meals according to established recipes and standards.</li>
+                    <li>Maintained a clean and organized work environment to ensure food safety and quality standards were met.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</div>
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="../assets/img/favicon.ico" alt="Site logo" />
+        <h3>Bram Willems</h3>
+        <p>Front-end Developer & Programmer</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>
+            <a href="mailto:r1100223@student.thomasmore.be"
+              >r1100223@student.thomasmore.be</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/CodingWithBram" target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <ul>
+          <li>
+            <a href="https://github.com/CodingWithBram" target="_blank"
+              ><i class="fa-brands fa-github"></i> GitHub</a
+            >
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-twitter"></i> Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Bram Willems. All rights reserved.</p>
+    </div>
+
+    <script>
+      // Update year automatically
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 <script src="../js/header.js"></script>
 </html>

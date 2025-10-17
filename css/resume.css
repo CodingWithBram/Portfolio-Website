@@ -22,12 +22,18 @@ body::before {
 }
 
 /* ===== MAIN CONTAINER (Glassmorphism) ===== */
+.flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 .main-box {
   position: relative;
   z-index: 1;
   max-width: 1000px;
   width: 100%;
-  margin: 25px auto 0;
+  margin: 25px 0;
   padding: 20px 20px 0px 20px;
   border-radius: 20px;
 
@@ -39,4 +45,41 @@ body::before {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 
   box-sizing: border-box;
+}
+
+.left-box {
+  position: relative;
+  z-index: 1;
+  max-width: 400px;
+  width: 100%;
+  margin: 25px 0;
+  margin-right: 50px;
+  padding: 20px 50px;
+  border-radius: 20px;
+
+    background: rgba(70, 70, 70, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.line{
+  width: 90%;
+  height: 2.5px;
+  background: linear-gradient(
+    to left,
+    transparent 0%,
+    #fff 20%,
+    #fff 80%,
+    transparent 100%
+  );
+  margin: 10px 0;
+}
+
+.work-experience-container{
+  margin-top: 30px;
 }

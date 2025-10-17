@@ -9,9 +9,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/contactme.css" />
+    
+    <link rel="stylesheet" href="../css/footer.css" />
+    
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <title>Document</title>
   </head>
-  <body>
     <header>
       <div class="lijn"></div>
       <div class="hamburger">
@@ -93,9 +96,52 @@
             >
           </p>
         </main>
+        <footer>
+          <div class="footer-container">
+            <div class="footer-logo">
+              <img src="../assets/img/favicon.ico" alt="Site logo" />
+              <h3>Bram Willems</h3>
+              <p>Front-end Developer & Programmer</p>
+            </div>
+    
+            <div class="footer-contact">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                  <a href="mailto:r1100223@student.thomasmore.be"
+                    >r1100223@student.thomasmore.be</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/CodingWithBram" target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </div>
+    
+            <div class="footer-social">
+              <h4>Follow Me</h4>
+              <ul>
+                <li>
+                  <a href="https://github.com/CodingWithBram" target="_blank"
+                    ><i class="fa-brands fa-github"></i> GitHub</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="footer-bottom">
+            <p>© <span id="year"></span> Bram Willems. All rights reserved.</p>
+          </div>
+    
+          <script>
+            // Update year automatically
+            document.getElementById("year").textContent = new Date().getFullYear();
+          </script>
+        </footer>
         <script src="../js/header.js"></script>
         <script src="../js/contact.js"></script>
-      </body>
-    </html>
   </body>
 </html>

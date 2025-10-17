@@ -182,6 +182,11 @@ h1 {
   opacity: 0.7;
 }
 
+
+.programming-title{
+  text-align: center;
+  margin: 0;
+}
 /* ===== Language Scroller (Glass Compatible) ===== */
 /* Update your scroller.css or experience.css */
 .wrapper {
@@ -212,7 +217,7 @@ h1 {
   height: 100px;
   border-radius: 6px;
   position: absolute;
-  left: max(calc(200px * 10), 100%);
+  left: max(calc(200px * 11), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -220,48 +225,50 @@ h1 {
 }
 .item img{
   height: 100px;
-  width: 100px;
   border-radius: 6px;
 }
 
 
 .item1 {
-  animation-delay: calc(30s / 10 * (10 - 1) * -1);
+  animation-delay: calc(30s / 11 * (11 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(30s / 10 * (10 - 2) * -1);
+  animation-delay: calc(30s / 11 * (11 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(30s / 10 * (10 - 3) * -1);
+  animation-delay: calc(30s / 11 * (11 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(30s / 10 * (10 - 4) * -1);
+  animation-delay: calc(30s / 11 * (11 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(30s / 10 * (10 - 5) * -1);
+  animation-delay: calc(30s / 11 * (11 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(30s / 10 * (10 - 6) * -1);
+  animation-delay: calc(30s / 11 * (11 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(30s / 10 * (10 - 7) * -1);
+  animation-delay: calc(30s / 11 * (11 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(30s / 10 * (10 - 8) * -1);
+  animation-delay: calc(30s / 11 * (11 - 8) * -1);
 }
 
 .item9 {
-  animation-delay: calc(30s / 10 * (10 - 9) * -1);
+  animation-delay: calc(30s / 11 * (11 - 9) * -1);
 }
-item10 {
-  animation-delay: calc(30s / 10 * (10 - 10) * -1);
+.item10 {
+  animation-delay: calc(30s / 11 * (11 - 10) * -1);
+}
+.item11 {
+  animation-delay: calc(30s / 11 * (11 - 11) * -1);
 }
 
 /* ===== Font Awesome Colors ===== */
