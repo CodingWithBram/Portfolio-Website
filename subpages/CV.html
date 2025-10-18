@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/resume.css">
-    
     <link rel="stylesheet" href="../css/footer.css" />
-    
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <title>Resume - Bram Willems</title>
 </head>
 <body>
 <header>
@@ -23,101 +23,140 @@
     </div>
     <div class="nav">
         <a href="" class="active">
-            <span class="nav-boxes">
-                <p>Resume</p>
-            </span>
-        </a><a href="../subpages/ervargingen.html" class="">
-            <span class="nav-boxes">
-                <p>Experiences</p>
-            </span>
-        </a><a href="../index.html" class="">
-            <span class="nav-boxes">
-                <p>About me</p>
-            </span>
-        </a><a href="../subpages/hobbies.html" class="">
-            <span class="nav-boxes">
-                <p>Hobbies</p>
-            </span>
-        </a><a href="../subpages/contactme.html">
-            <span class="nav-boxes">
-                <p>Contact me</p>
-            </span>
+            <div class="nav-boxes"><p>Resume</p></div>
         </a>
+        <a href="../subpages/ervargingen.html"><div class="nav-boxes"><p>Experiences</p></div></a>
+        <a href="../index.html"><div class="nav-boxes"><p>About me</p></div></a>
+        <a href="../subpages/hobbies.html"><div class="nav-boxes"><p>Hobbies</p></div></a>
+        <a href="../subpages/contactme.html"><div class="nav-boxes"><p>Contact me</p></div></a>
     </div>
 </header>
+
 <div class="flex-display">
     <aside class="left-box">
+        <!-- 🧭 Contact Info -->
         <div class="contact-info-aside">
-            <p><i></i>+32 470 42 39 69</p>
-            <p><i></i>r1100223@student.thomasmore.be</p>
+            <p><i class="fa-solid fa-phone"></i> +32 470 42 39 69</p>
+            <p>
+                <a href="mailto:r1100223@student.thomasmore.be">
+                    <i class="fa-solid fa-envelope"></i> r1100223@student.thomasmore.be
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/bram-willems-800617385/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/CodingWithBoris" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </p>
         </div>
+
+        <!-- 🎓 Education -->
         <div class="edcuation-info-aside">
-            <h2>EDUCATION</h2>
+            <h2><i class="fa-solid fa-graduation-cap"></i> EDUCATION</h2>
             <div class="line"></div>
             <h3>Graduate Programming</h3>
-            <p>Thomas more turnhout<br><span>2025 - 2027</span></p>
+            <p><i class="fa-solid fa-school"></i> Thomas More Turnhout<br><span>2025 - 2027</span></p>
             <div class="spacer"></div>
             <h3>Website Designer</h3>
-            <p>CVO Turnhout <br><span>2025</span></p>
+            <p><i class="fa-solid fa-laptop-code"></i> CVO Turnhout <br><span>2025</span></p>
         </div>
+
+        <!-- 🛠 Skills -->
         <div class="skills-info-aside">
-            <h2>SKILLS</h2>
+            <h2><i class="fa-solid fa-code"></i> SKILLS</h2>
             <div class="line"></div>
             <ul>
-                <li>Bootstrap</li>
-                <li>C#</li>
-                <li>CSS</li>
-                <li>Git & GitHub</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>MongoDB</li>
-                <li>MSSQL</li>
-                <li>Node.js</li>
-                <li>Team Collaboration</li>
-                <li>Technical Documentation</li>
-                <li>Typescript</li>
+                <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                <li><i class="fa-solid fa-code"></i> C#</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                <li><i class="fa-brands fa-html5"></i> HTML</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-solid fa-database"></i> MongoDB</li>
+                <li><i class="fa-solid fa-database"></i> MSSQL</li>
+                <li><i class="fa-brands fa-node-js"></i> Node.js</li>
+                <li><i class="fa-solid fa-people-group"></i> Team Collaboration</li>
+                <li><i class="fa-solid fa-file-lines"></i> Technical Documentation</li>
+                <li><i class="fa-solid fa-code"></i> TypeScript</li>
+            </ul>
         </div>
+
+        <!-- 🌐 Languages -->
         <div class="language-info-aside">
-            <h2>LANGUAGES</h2>
+            <h2><i class="fa-solid fa-language"></i> LANGUAGES</h2>
             <div class="line"></div>
             <ul>
-                <li>Dutch - Native</li>
-                <li>English - Professional Proficiency</li>
+                <li><i class="fa-solid fa-flag"></i> Dutch - Native</li>
+                <li><i class="fa-solid fa-flag-usa"></i> English - Professional Proficiency</li>
             </ul>
         </div>
     </aside>
+
     <main class="main-box">
-        <div class="about-me-container">
-            <h1>ABOUT ME</h1>
+        <!-- 🧑 About -->
+        <section class="about-me-container">
+            <h1><i class="fa-solid fa-user"></i> ABOUT ME</h1>
             <div class="line"></div>
             <p>
-                I am a passionate and detail-oriented coder who loves creating clean, readable, and visually appealing code. I am a quick learner, having picked up new programming languages and frameworks in a matter of weeks, and I take pride in translating ideas into functional, real-world projects.
-                <br><br>
-                I thrive in focused, quiet environments, but I value positive and respectful interactions with colleagues. I approach challenges methodically, tracing problems carefully and iteratively testing solutions until the issue is resolved.
-                <br><br>
-                My goal is to grow as a backend developer with a focus on data, combining my love for coding with the excitement of analyzing and working with complex datasets. I am always eager to learn, particularly in low-level programming languages such as C, C++, or Rust, and I enjoy problem-solving with persistence and a positive attitude.
-                <br><br>
-                I value kindness, respect, and open communication in a team, and I believe that a positive outlook and collaborative mindset contribute to both personal and organizational success.</p>
-        </div>
-        <div class="work-experience-container">
-            <h1>WORK EXPERIENCE</h1>
+                Passionate and detail-oriented coder skilled in turning ideas into clean, functional projects. Proficient in C#, JavaScript, TypeScript, Node.js, HTML, CSS, Bootstrap, and databases like MongoDB and MSSQL. Quick to learn new tools and frameworks, with experience in Git, technical documentation, and team collaboration. Methodical problem-solver who thrives in focused environments and values respectful, productive teamwork.
+            </p>
+        </section>
+
+        <!-- 💼 Work Experience -->
+        <section class="work-experience-container">
+            <h1><i class="fa-solid fa-briefcase"></i> WORK EXPERIENCE</h1>
             <div class="line"></div>
-            <div class="work-experience-box">
+            <article class="work-experience-box">
                 <h2>Factory Operator</h2>
-                <h3>Versatelier - 2025</h3>
+                <h3><i class="fa-solid fa-building"></i> Versatelier - 2025</h3>
                 <ul>
-                    <li>Assisted in cooking food for hunderds of people.</li>
+                    <li>Assisted in cooking food for hundreds of people.</li>
                     <li>Operated kitchen equipment safely and efficiently to prepare meals according to established recipes and standards.</li>
                     <li>Maintained a clean and organized work environment to ensure food safety and quality standards were met.</li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </section>
+
+        <!-- 🚀 Projects -->
+        <section class="projects-container">
+            <h1><i class="fa-solid fa-diagram-project"></i> PROJECTS</h1>
+            <div class="line"></div>
+
+            <article class="project-item">
+                <h2><i class="fa-solid fa-globe"></i> Portfolio Website</h2>
+                <p>Built a responsive personal portfolio website using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/CodingWithBram/Portfolio-Website" target="_blank">
+                    <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+            </article>
+
+            <article class="project-item">
+                <h2><i class="fa-brands fa-discord"></i> CJTF-R Discord Bot</h2>
+                <p>Developed a Discord bot in TypeScript with custom commands and event handling.</p>
+                <a href="https://github.com/CodingWithBoris/CJTF-R" target="_blank">
+                    <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+            </article>
+
+            <article class="project-item">
+                <h2><i class="fa-brands fa-discord"></i> Chillers Discord Bot</h2>
+                <p>Built a TypeScript Discord bot focused on moderation and utilities, featuring command parsing, event-driven handlers, and configurable persistent settings.</p>
+                <a href="https://github.com/CodingWithBoris/Chillers-Bot" target="_blank">
+                    <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+            </article>
+        </section>
     </main>
 </div>
+
 <footer>
     <div class="footer-container">
       <div class="footer-logo">
-        <img src="../assets/img/favicon.ico" alt="Site logo" />
+        <img src="../assets/img/favicon.ico" alt="Site logo">
         <h3>Bram Willems</h3>
         <p>Front-end Developer & Programmer</p>
       </div>
@@ -125,37 +164,17 @@
       <div class="footer-contact">
         <h4>Contact</h4>
         <ul>
-          <li>
-            <a href="mailto:r1100223@student.thomasmore.be"
-              >r1100223@student.thomasmore.be</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/CodingWithBram" target="_blank"
-              >GitHub</a
-            >
-          </li>
+          <li><a href="mailto:r1100223@student.thomasmore.be"><i class="fa-solid fa-envelope"></i> Email</a></li>
+          <li><a href="https://github.com/CodingWithBram" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
         </ul>
       </div>
 
       <div class="footer-social">
         <h4>Follow Me</h4>
         <ul>
-          <li>
-            <a href="https://github.com/CodingWithBram" target="_blank"
-              ><i class="fa-brands fa-github"></i> GitHub</a
-            >
-          </li>
-          <li>
-            <a href="#" target="_blank"
-              ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
-            >
-          </li>
-          <li>
-            <a href="#" target="_blank"
-              ><i class="fa-brands fa-twitter"></i> Twitter</a
-            >
-          </li>
+          <li><a href="https://github.com/CodingWithBram" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/bram-willems-800617385/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
         </ul>
       </div>
     </div>
@@ -165,10 +184,10 @@
     </div>
 
     <script>
-      // Update year automatically
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-  </footer>
-</body>
+</footer>
+
 <script src="../js/header.js"></script>
+</body>
 </html>

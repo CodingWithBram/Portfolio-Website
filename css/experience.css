@@ -17,18 +17,14 @@ body {
 /* Blurred colorful background blobs for subtle color depth */
 body::before {
   content: "";
-  position: fixed;
+  position: absolute;
   top: -10%;
   left: -10%;
   width: 120%;
-  height: 120%;
-  background: radial-gradient(
-      circle at 20% 30%,
-      rgba(255, 0, 150, 0.25),
-      transparent 60%
-    ),
-    radial-gradient(circle at 80% 70%, rgba(0, 150, 255, 0.25), transparent 60%),
-    radial-gradient(circle at 50% 90%, rgba(0, 255, 180, 0.25), transparent 60%);
+  height: 210%;
+  background: radial-gradient(circle at 20% 30%, #9400d340, transparent 60%),
+    radial-gradient(circle at 80% 70%, #00bfff40, transparent 60%),
+    radial-gradient(circle at 50% 90%, #ff149340, transparent 60%);
   filter: blur(120px);
   z-index: 0;
 }
@@ -182,8 +178,7 @@ h1 {
   opacity: 0.7;
 }
 
-
-.programming-title{
+.programming-title {
   text-align: center;
   margin: 0;
 }
@@ -223,11 +218,10 @@ h1 {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.item img{
+.item img {
   height: 100px;
   border-radius: 6px;
 }
-
 
 .item1 {
   animation-delay: calc(30s / 11 * (11 - 1) * -1);
@@ -270,6 +264,59 @@ h1 {
 .item11 {
   animation-delay: calc(30s / 11 * (11 - 11) * -1);
 }
+
+/* ===== Skills Table Styling ===== */
+.container-promgramming table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background: rgba(87, 87, 87, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.container-promgramming th,
+.container-promgramming td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+}
+
+.container-promgramming th {
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 1.1rem;
+}
+
+.container-promgramming tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.container-promgramming tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ===== Icon Colors ===== */
+.container-promgramming i {
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+/* Individual icon colors */
+.fa-html5 { color: #e34f26; }
+.fa-css3-alt { color: #264de4; }
+.fa-js { color: #f0db4f; }
+.fa-square-js { color: #3178c6; }
+.fa-bootstrap { color: #7952b3; }
+.fa-node-js { color: #68a063; }
+.fa-database { color: #4DB33D; } /* MS SQL & MongoDB fallback */
+.fa-git-alt { color: #f05032; }
+.fa-docker { color: #0db7ed; }
+.fa-microsoft { color: #5B5B5B; } /* C# */
+.fa-envira { color: #47A248; } /* MongoDB representation */
 
 /* ===== Font Awesome Colors ===== */
 .project-box img {
