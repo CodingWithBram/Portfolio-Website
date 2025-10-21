@@ -1,5 +1,5 @@
 :root {
-    /* Colors */
+    
     --background-color: #1e1e1e;
     --nav-box-color: #464646;
     --nav-box-hover-color: #5a5a5a;
@@ -9,12 +9,12 @@
     --line-color: #464646;
     --text-color: #ffffff;
 
-    /* Font */
+    
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-size-base: 18px;
     --font-weight-base: 500;
 
-    /* Sizes */
+    
     --header-height: 100px;
     --lijn-height: 25px;
     --nav-box-width: 150px;
@@ -22,7 +22,7 @@
     --nav-box-border-radius: 50px;
 }
 
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -130,7 +130,7 @@ a:not(.active) .nav-boxes:hover {
     transition: all 0.3s ease;
 }
 
-/* Animated Hamburger */
+
 .hamburger.active div:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -141,7 +141,7 @@ a:not(.active) .nav-boxes:hover {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Media Queries */
+
 @media (max-width: 823px) {
     .nav-boxes {
         height: 40px;
@@ -164,7 +164,7 @@ a:not(.active) .nav-boxes:hover {
     }
 }
 
-/* Hamburger specific CSS */
+
 @media (max-width: 560px) {
     .nav {
         display: none;

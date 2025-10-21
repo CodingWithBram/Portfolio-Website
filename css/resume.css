@@ -1,4 +1,4 @@
-/* ===== Background Setup ===== */
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -6,7 +6,7 @@ body {
   position: relative;
 }
 
-/* Blurred colorful background blobs for depth */
+
 body::before {
   content: "";
   position: absolute;
@@ -21,7 +21,7 @@ body::before {
   z-index: 0;
 }
 
-/* ===== MAIN CONTAINER (Glassmorphism) ===== */
+
 .flex-display {
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ body::before {
   padding: 20px;
   border-radius: 20px;
 
-  /* Glassmorphism core */
+  
   background: rgba(70, 70, 70, 0.25);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -87,25 +87,25 @@ body::before {
 i {
   margin-right: 8px;
 }
-/* ===== Icon Colors ===== */
+
 .contact-info-aside i {
     margin-right: 8px;
-    color: #6fa8ff; /* soft blue for contact info */
+    color: #6fa8ff; 
 }
 
-/* Education icons */
+
 .edcuation-info-aside i {
     margin-right: 8px;
-    color: #FFD700; /* gold for graduation / school */
+    color: #FFD700; 
 }
 
-/* Skills icons */
+
 .skills-info-aside i {
     margin-right: 8px;
     vertical-align: middle;
 }
 
-/* Individual skill colors */
+
 .skills-info-aside i.fa-bootstrap { color: #7952b3; }
 .skills-info-aside i.fa-html5 { color: #e34f26; }
 .skills-info-aside i.fa-css3-alt { color: #264de4; }
@@ -117,20 +117,20 @@ i {
 .skills-info-aside i.fa-people-group { color: #FF69B4; }
 .skills-info-aside i.fa-file-lines { color: #FFA500; }
 
-/* Languages icons */
+
 .language-info-aside i {
     margin-right: 8px;
     color: #6fa8ff;
 }
 
-/* About Me and Work Experience icons */
+
 .about-me-container i,
 .work-experience-container i {
     margin-right: 8px;
     color: #6fa8ff;
 }
 
-/* Project icons */
+
 .projects-container i {
     margin-right: 8px;
 }
@@ -139,7 +139,7 @@ i {
 .projects-container i.fa-globe { color: #00BFFF; }
 .projects-container i.fa-diagram-project { color: #6fa8ff; }
 
-/* Footer icons */
+
 footer i {
     margin-right: 6px;
     color: #6fa8ff;

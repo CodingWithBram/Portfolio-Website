@@ -10,7 +10,7 @@ footer {
     border-radius: 20px 20px 0px 0px;
     color: var(--text-color);
   
-    /* Glassmorphism effect */
+    
     background: rgba(70, 70, 70, 0.25);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
